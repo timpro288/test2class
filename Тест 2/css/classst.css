@@ -66,8 +66,8 @@ html,body{
     border: 1px solid ;
 }
 .foto{
-    width: 59%;
-    height: 27%;
+    width: 500px;
+    height: 400px;
     background: url(../img/k.png);
     margin: auto;
     margin-top: 50px;
@@ -76,6 +76,8 @@ html,body{
 .name{
     color: white;
     text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 
@@ -98,6 +100,34 @@ html,body{
     font-size: 20px;
     margin-top: 100px;
 }
+.img26{
+    
+    height: 160px;
+    width:160px ;
+    
+    background-size: cover;
+    background: url(../img/photo_5431466963542072846_x.jpg);
+   
+}
+.img16{
+    height: 160px;
+    width: 160px;
+    background-size: cover;
+    background: url(../img/photo_5433806548192321146_y.jpg)
+}
+.img7{
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background: url(../img/photo_5431466963542072845_y.jpg)
+}
+.img9{
+     width: 160px;
+    height: 160px;
+    background-size: cover;
+    background: url(../img/photo_5433806548192321373_y.jpg)
+}
+}
 
 
 
@@ -113,3 +143,10 @@ html,body{
 
 
 
+.ryjgrf {
+    margin: 10px;
+}
+
+.ryjhrf {
+    text-align: center;
+}

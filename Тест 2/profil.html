@@ -5,7 +5,7 @@
     <title>Имя</title>
      <link rel="stylesheet" type="text/css" href="css/classst.css">
 </head>
-<body>
+<body id="doska">
     
     <div class="head">
      <a href="classst.html">  <div class="logo">
@@ -17,7 +17,7 @@
             
         </div></a>
         <a href="Lessonslist.html" class="raspisanie">📒Расписание </a>
-        <a href="" class="list">🙍‍♂️🙍‍♀️Список класса</a>
+        <a href="classlist.html" class="list">🙍‍♂️🙍‍♀️Список класса</a>
         <a href="" class="teachers">👩‍🏫👨‍🏫Учителя</a>
         
         
@@ -34,8 +34,39 @@
    <a href="tel:89080387770" class="options">Сменить фото профиля</a>
    <hr>
    <a href="tel:89080387770" class="options">Сменить фон сайта</a>
+   <div class="ryjhrf">
+   <button  onclick="colorset1()">
+   оранжевый  
+   </button>
+   <button onclick="colorset2()">зеленый</button>
+   <button onclick="colorset3()">голубой</button>
+   <button onclick="colorset4()">чёрный</button>
+       </div>
    <hr>
    
    </div>
+   <script>
+    let first =  document.getElementById('doska');
+       function colorset1(){
+           first.style.background = 'orange'
+       }
+        let second =  document.getElementById('doska');
+       function colorset2() {
+           second.style.background = 'green'}
+       
+    
+    
+let third =  document.getElementById('doska');
+       function colorset3(){
+        third.style.background = 'lightblue'
+       }
+    let fourth =  document.getElementById('doska');
+       function colorset4(){
+        fourth.style.background = 'black'
+       }
+    
+    
+    
+    </script>
 </body>
 </html>
